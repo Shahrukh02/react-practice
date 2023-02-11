@@ -14,7 +14,6 @@ function App() {
     <>
       <AddList onAddList={addNewListHandler} />
       <List data={list} />
-    
     </>
   );
 }

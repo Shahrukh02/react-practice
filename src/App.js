@@ -1,19 +1,14 @@
-import React, { useState } from "react";
-import "./App.css";
-import List from "./components/List";
-import AddList from "./components/AddList";
-
+import React from "react";
+// import UseEffect from "./components/UseEffectPractice/UseEffect";
+// import Form from "./components/formPractice/Form"
+// import BasicTodo from "./components/basicTodo/BasicTodo";
+import Todo from "./components/todo/Todo";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-  const [list, setList] = useState([]);
-  const addNewListHandler = (newList) => {
-    setList((previousList) => previousList.concat(newList));
-  };
-
   return (
     <>
-      <AddList onAddList={addNewListHandler} />
-      <List data={list} />
+      <Todo />
     </>
   );
 }

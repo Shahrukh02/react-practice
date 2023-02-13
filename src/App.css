@@ -8,3 +8,10 @@
 .btn{
     font-size: large;
 }
+.main_div{
+    padding: 3px;
+    border: solid 1px;
+    height: auto;
+    width: auto;
+    margin-bottom: 5px;
+}
